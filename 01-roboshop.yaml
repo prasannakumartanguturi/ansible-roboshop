@@ -1,8 +1,0 @@
-- name: roboshop project with ansible
-  hosts: local
-  connection: local
-
-  tasks:
-  - name: ansible roboshop
-    ansible.builtin.debug:
-      msg: "roboshop using ansible"
