@@ -9,6 +9,5 @@
       instance_type: t3.micro
       image_id: "ami-09c813fb71547fc4f"
       security_group: "sg-0c0e9eb837218898b"
-    tags:
-     name: "dummy"
+
   
