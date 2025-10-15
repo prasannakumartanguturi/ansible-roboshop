@@ -1,6 +1,6 @@
 - name: configure mongo instance
-    hosts: mongodb
-    become: yes
+  hosts: mongodb
+  become: yes
 
   tasks:
   - name: copy mongodb repo
