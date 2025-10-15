@@ -43,16 +43,8 @@
 
     loop: "{{ ec2_output.results }}"
 
-  # - name: create route53 record
-  #   amazon.aws.route53:
-  #     state: present
-  #     zone: "{{ domain_name }}"
-  #     record: "{{ item.item }}.{{ domain_name }}" # mongodb.daws86s.fun
-  #     type: A
-  #     ttl: 1
-  #     value: "{{ item.instances[0].private_ip_address }}"
-  #     overwrite: true
-  #   loop: "{{ ec2_output.results }}"
+# #ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 
+# 01-ec2-r53.yaml -e "instances=['mongodb','mysql']"
 
 
   
