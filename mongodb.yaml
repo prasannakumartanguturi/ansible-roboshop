@@ -3,8 +3,8 @@
   become: yes
 
   tasks:
-  - name: copy mongodb repo
-    src: mongodb.repo
+  - name: copy mongo repo
+    src: mongo.repo
     dest: /etc/yum.repos.d/mongo.repo
   
   - name: install mongodb software
