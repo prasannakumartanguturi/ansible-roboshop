@@ -6,7 +6,7 @@
     ami_id: ami-09c813fb71547fc4f
     sg_id: sg-0c0e9eb837218898b # replace with your SG ID
     zone_id: "Z03050903TW06RI865LSH" # replace with your R53 zone ID
-    domain_name: "daws86s.fun"
+    domain_name: "prasannadso.fun"
 
   # tasks:
   # - name: Create EC2 instance 
