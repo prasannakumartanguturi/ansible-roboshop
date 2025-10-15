@@ -26,8 +26,8 @@
         state: absent
     - name: create /app directory
       ansible.builtin.file:
+        state: directory
         path: /app
-        state: present
     - name: delelte catalogue file
       ansible.builtin.file:
         path: /tmp/catalogue.zip
